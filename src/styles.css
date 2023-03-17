@@ -4,7 +4,6 @@ body {
 
 
 .container {
-    border: 1px solid lightseagreen;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -15,30 +14,53 @@ body {
     background-image: url("/src/images/smile.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+.title {
+    color: darkorange;
+    -webkit-text-stroke: 1px black;
 }
 
 .containerJoke {
     margin: 40px;
     border: 3px solid lightseagreen;
-    height: 350px;
     padding: 30px;
     width: 500px;
     border-radius: 50px;
     background-color: white;
+    background-image: url(/src/images/shape.svg);
 }
 
 button {
     background-color: lightseagreen;
     color: white;
     border-radius: 50px;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 20px;
     cursor: pointer;
 }
 
 button:hover {
     background-color: orange;
+}
+
+.emoji {
+    background-color: currentColor;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.emoji:hover {
+    border: 2px solid lightseagreen;
+    background-color: currentColor;
+    -webkit-transform: rotate(360deg);
+    transition: 0.3s;
+    border-radius: 100px;
+    border: 5px double cyan;
+    background-color: blueviolet;
 }
 
 
@@ -50,6 +72,7 @@ button:hover {
     justify-content: center;
     border-radius: 50px;
     height: 50px;
+    font-weight: bold;
 }
 
 .voteHIdden {
