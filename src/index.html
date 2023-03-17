@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="/src/styles.css">
 </head>
 
-<body>
+<body onload="currentDay(), tiempo()">
     <div class="container">
         <div class="containerJoke">
+            <div class="weather">
+                <span style='font-size:30px'>&#127774;</span>
+                <div id="celsius"></div>
+            </div>
             <h1>READY TO LAUGH? 🤣</h1>
-            <button onclick="nextMessage()">NEXT JOKE!</button>
+            <button onclick="nextMessage()">OTHER Jokes!</button>
+            <button onclick="nextMessageNorris()">CHUCK NORRIS Jokes!</button>
             <div class="message" id="messageJoke"></div>
 
             <div class="voteHIdden" id="voteId">
@@ -21,16 +26,8 @@
                 <button onclick="vote2()">2 POINTS</button>
                 <button onclick="vote3()">3 POINTS</button>
             </div>
-
-
         </div>
-
-
-
     </div>
-
-
-
     <script src="/src/salida.js"></script>
 </body>
 

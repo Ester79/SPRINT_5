@@ -1,0 +1,32 @@
+{
+    "weather": [
+        {
+            "day": "0",
+            "temperature": "20"
+        },
+        {
+            "day": "1",
+            "temperature": "18"
+        },
+        {
+            "day": "2",
+            "temperature": "17"
+        },
+        {
+            "day": "3",
+            "temperature": "19"
+        },
+        {
+            "day": "4",
+            "temperature": "21"
+        },
+        {
+            "day": "5",
+            "temperature": "17"
+        },
+        {
+            "day": "6",
+            "temperature": "15"
+        }
+    ]
+}

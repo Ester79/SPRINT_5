@@ -4,7 +4,7 @@ body {
 
 
 .container {
-    border: 1px solid black;
+    border: 1px solid lightseagreen;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -60,4 +60,14 @@ button:hover {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+
+.weather {
+    display: flex;
+    vertical-align: middle;
+}
+
+#celsius {
+    padding-top: 15px;
+    font-weight: bold;
 }
